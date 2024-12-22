@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+    color: #000;
+    overflow-x: hidden;
+}
+
+header{
+    padding: 2rem;
+}
+
+header .container{
+    display: flex;
+}
+
+header .hd-left{
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    width: 50%;
+}
+
+header .hd-left div{
+    width: 16px;
+    height: 16px;
+    background: #0050FF;
+}
+header .hd-left h1{
+    margin: 0;
+    font-size: 1rem;
+}
+header .hd-left span{
+    font-size: 12px;
+}
+
+header .hd-left h3{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+header .hd-right{
+    width: 50%;
+}
+
+header .hd-right ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+header .hd-right ul a{
+    color: #000;
+    text-decoration: none;
+}
+header .hd-right ul a:hover{
+    color: #0050FF;
+}
+
+/* MAIN */
+
+main .container{
+    position: relative;
+}
+
+main .container .wallpaper{
+    width: 40%;
+    height: 92vh;
+    background: #E6DACE;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+main .mn{
+    display: flex;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+    padding: 20px;
+}
+
+main .mycard-left{
+    width: 25%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background: #F4ECE6;
+    padding: 20px;
+    border-radius: 16px;
+    box-shadow: -4px 0px 15px -9px #999;
+}
+
+main .mycard-left .myimg{
+    width: 100%;
+    padding: 20px;
+}
+main .mycard-left .myimg img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+main .mycard-left h1{
+    margin: 0;
+    background: #F4ECE6;
+    line-height: 30px;
+}
+main .mycard-left span{
+    background: #0050FF;
+    height: 5px;
+    width: 50px;
+    display: block;
+    border-radius: 10px;
+}
+main .mycard-left h3{
+    font-weight: 100;
+    letter-spacing: 2px;
+    background: #F4ECE6;
+    margin: 0;
+}
+
+main .mycard-left .socials{
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+
+main .mycard-left .socials a{
+text-decoration: none;
+}
+
+main .mycard-left .socials a img{
+    width: 30px;
+    height: 30px;
+}
+
+main .mycard-right{
+    width: 24%;
+    padding: 20px;
+}
+main .mycard-right h1{
+    font-size: 4rem;
+    margin-top: 0;
+}
+main .mycard-right .mycard-btn{
+    display: flex;
+    gap: 10px;
+
+}
+main .mycard-right .mycard-btn .crc{
+    padding: 10px 20px;
+    background: #0050FF;
+    color: #fff;
+    border: none;
+    border-radius: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+main .mycard-right .mycard-btn .crc:hover{
+    background: #fff;
+    color: #0050FF;
+    border: 1px solid #0050FF;
+    cursor: pointer;
+}
+main .mycard-right .mycard-btn .pjt{
+    padding: 10px 20px;
+    background: #fff;
+    color: #000;
+    border: none;
+    border-radius: 16px;
+    text-transform: uppercase;
+    width: 50%;
+    border: 1px solid #000;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+main .mycard-right .mycard-btn .pjt:hover{
+    background: #0050FF;
+    color: #fff;
+    border: 1px solid #0050FF;
+    cursor: pointer;
+}
+main .mycard-right p{
+    font-size: 18px;
+    text-align: left;
+    word-wrap: break-word;
+    font-weight: 100;
+    letter-spacing: 2px;
+}

@@ -22,3 +22,12 @@ document.addEventListener('DOMContentLoaded', () => {
 function redirectTo(link) {
     window.open(link, '_blank');
 }
+
+
+
+const hamburger = document.getElementById('hamburger');
+    const mobileMenu = document.getElementById('mobileMenu');
+
+    hamburger.addEventListener('click', () => {
+      mobileMenu.classList.toggle('active');
+    });

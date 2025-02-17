@@ -73,6 +73,9 @@ header .hd-right ul a:hover{
     color: #0050FF;
 }
 
+#mobileMenu{
+    display: none;
+}
 /* MAIN */
 
 main .container{

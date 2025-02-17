@@ -73,9 +73,6 @@ header .hd-right ul a:hover{
     color: #0050FF;
 }
 
-#mobileMenu{
-    display: none;
-}
 /* MAIN */
 
 main .container{
@@ -232,7 +229,12 @@ footer{
       
   
       
-  
+@media screen and (min-width: 769px) {
+
+    #mobileMenu{
+        display: none;
+    } 
+}
       
 
 

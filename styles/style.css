@@ -362,7 +362,16 @@ footer{
         text-align: center;
     }
 
+    main .mycard-right h1{
+        display: none;
+    }
+    
+    main .mycard-right .mycard-btn{
+        margin-top: 20px;
+    }
     main .mycard-right p{
         text-align: center;
     }
+
+
   }

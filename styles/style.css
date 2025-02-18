@@ -251,7 +251,7 @@ footer{
 
     header .hd-left a{
         display: grid;
-        grid-template-columns: 23px 270px 10px 270px;
+        grid-template-columns: 23px 270px;
         grid-template-rows: 20px 0 20px;
         gap: 0; 
     }
@@ -340,5 +340,29 @@ footer{
 
     .hamburger {
       display: flex;
+    }
+
+    main .container .wallpaper{
+        width: 100%;
+    }
+
+    main .mn{
+        display: flex;
+    flex-direction: column
+    }
+
+    main .mycard-left{
+        gap: 15px;
+        width: 100%;
+    }
+
+    main .mycard-right{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+    }
+
+    main .mycard-right p{
+        text-align: center;
     }
   }

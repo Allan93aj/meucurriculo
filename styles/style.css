@@ -11,6 +11,8 @@ body {
 
 header{
     padding: 2rem;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 header .container{
@@ -95,10 +97,12 @@ main .mn{
     z-index: 3;
     position: relative;
     padding: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 main .mycard-left{
-    width: 25%;
+    width: 50%;
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -107,6 +111,7 @@ main .mycard-left{
     background: #F4ECE6;
     border-radius: 16px;
     box-shadow: -4px 0px 15px -9px #999;
+    justify-content: flex-start;
 }
 
 main .mycard-left .myimg{
@@ -114,14 +119,16 @@ main .mycard-left .myimg{
     padding: 20px;
 }
 main .mycard-left .myimg img{
-    width: 200px;
-    height: 200px;
+    width: 90%;
+    height: 100%;
     border-radius: 50%;
 }
 main .mycard-left h1{
     margin: 0;
     background: #F4ECE6;
     line-height: 30px;
+    font-size: 60px;
+
 }
 main .mycard-left span{
     background: #0050FF;
@@ -135,6 +142,7 @@ main .mycard-left h3{
     letter-spacing: 2px;
     background: #F4ECE6;
     margin: 0;
+    font-size: 24px;
 }
 
 main .mycard-left .socials{
@@ -158,7 +166,7 @@ main .mycard-left .socials a img{
 }
 
 main .mycard-right{
-    width: 24%;
+    width: 50%;
     padding: 20px;
 }
 main .mycard-right h1{
@@ -208,11 +216,11 @@ main .mycard-right .mycard-btn .pjt:hover{
     cursor: pointer;
 }
 main .mycard-right p{
-    font-size: 18px;
     text-align: left;
     word-wrap: break-word;
     font-weight: 100;
     letter-spacing: 2px;
+    font-size: 25px;
 }
 
 /* FOOTER*/
@@ -220,6 +228,10 @@ footer{
     text-align: center;
     padding: 1rem;
     font-size: 14px;
+}
+
+footer p{
+    font-size: 25px; 
 }
 
   

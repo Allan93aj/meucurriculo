@@ -1,0 +1,29 @@
+.container-projetos{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.wrapper-projetos-esquerda{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.wrapper-projetos-direita{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: row-reverse;
+    margin-bottom: 40px;
+}
+
+.img-projeto img{
+    width: 500px;
+}
+
+.img-projeto,
+.texto-projeto{
+    width: 50%;
+}
